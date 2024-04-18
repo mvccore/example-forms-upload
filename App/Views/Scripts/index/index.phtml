@@ -1,0 +1,18 @@
+<h1><?=$title?></h1>
+
+<h2>Form upload</h2>
+<?=$formUploadForm->Render()?>
+
+<h2>Ajax upload</h2>
+<?=$ajaxUploadForm->Render()?>
+
+<h2>Uploaded images:</h2>
+<div id="uploaded_files">
+	<?php foreach ($uploadedFiles as $uploadedFile): ?>
+		<div>
+			<b><?=$uploadedFile->name?></b><br />
+			<i>Modified: <?=date('Y-m-d H:i:s', $uploadedFile->time)?></i><br />
+			<img src="<?=$uploadedFile->url?>" />
+		</div>
+	<?php endforeach; ?>
+</div>
