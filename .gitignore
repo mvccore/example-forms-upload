@@ -1,0 +1,77 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Mercurial versioning system
+.hg
+.hgignore
+.hgtags
+
+# IDEs
+.vs
+*.phpproj
+*.phpproj.user
+.idea
+*.code-workspace
+
+# Application third party modules
+vendor/*
+composer-update-dev.*
+composer-update.*
+
+# Application tmp dirs
+Var/Tmp/*
+Var/Logs/*
+Var/Files/*.gif
+Var/Files/*.jpg
+Var/Files/*.jpeg
+Var/Files/*.png
+static/tmp
+static/ts/src/TestImages.ts
+static/js/build/TestImages.*
+static/ts/node_modules
+static/ts/types/build
