@@ -1,0 +1,10 @@
+.content .header{overflow:hidden;border-bottom:1px solid #888;padding-bottom:20px;}
+.content .header a{text-align:center;display:inline-block;width:200px;height:60px;line-height:60px;background:#ccc;text-decoration:none;border-bottom:0;}
+
+.content{margin:20px 0;}
+.content h1{line-height:1.3em;}
+.content h2{margin:20px 0 10px 0;}
+.content p{margin:10px 0;text-align:justify;}
+.content hr{border:0;height:0;border-bottom:1px solid #888;margin:20px 0 20px 0;}
+
+#uploaded_files > div{margin:20px 0;border:1px solid #666;}
