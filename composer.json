@@ -1,0 +1,25 @@
+{
+	"name": "mvccore/example-forms-uploads",
+	"type": "project",
+	"description": "MvcCore Example - Forms - Uploads.",
+	"keywords": [],
+	"license": ["BSD-3-Clause"],
+	"authors": [{
+		"name": "Tom Flidr",
+		"homepage": "https://github.com/tomFlidr"
+	}],
+	"require": {
+		"php": ">=5.4.0",
+		"mvccore/mvccore": "^5.2",
+		"mvccore/ext-form": "^5.2",
+		"mvccore/ext-form-field-file": "^5.2",
+		"mvccore/ext-form-field-button": "^5.2",
+		"mvccore/ext-view-helper-assets": "^5.2",
+		"mvccore/ext-debug-tracy-mvccore": "^5.2",
+		"mvccore/ext-debug-tracy-routing": "^5.2",
+		"mvccore/ext-debug-tracy-session": "^5.2",
+		"mvccore/ext-tool-csp": "^5.0",
+		"mvccore/ext-tool-mimetype-extension": "^5.0"
+	},
+	"minimum-stability": "stable"
+}
