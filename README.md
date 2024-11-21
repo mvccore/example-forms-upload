@@ -9,5 +9,5 @@ Example with simple upload forms demonstration.
 
 ## Instalation
 ```shell
-composer create-project mvccore/example-forms-upload
+composer create-project mvccore/example-forms-uploads
 ```
