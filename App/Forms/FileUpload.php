@@ -61,8 +61,7 @@ class FileUpload extends \MvcCore\Ext\Form
 				$files = [];
 				$values = (object) $this->values;
 				if ($values->files && count($values->files) > 0) {
-					$targetRelPath = '/Var/Files/';
-					$targetBasePath = $this->request->GetAppRoot() . $targetRelPath;
+					$targetBasePath = $this->application->GetPathVar(TRUE) . '/Files/';
 					foreach ($values->files as $file) {
 						if ($file->error) continue;
 						$targetFullPath = $targetBasePath . $file->name;

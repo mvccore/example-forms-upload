@@ -86,7 +86,7 @@ class Index extends Base {
 		$uploadedFiles = [];
 		$filesRelPath = '/Var/Files';
 		$basePath = $this->request->GetBasePath();
-		$appRoot = $this->request->GetAppRoot();
+		$appRoot = $this->application->GetPathAppRoot();
 		$di = new \DirectoryIterator($appRoot . $filesRelPath);
 		foreach ($di as $item) {
 			$fileName = $item->getFilename();
