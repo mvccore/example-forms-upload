@@ -1,7 +1,7 @@
 {
-	"name": "mvccore/example-forms-uploads",
+	"name": "mvccore/example-forms-upload",
 	"type": "project",
-	"description": "MvcCore Example - Forms - Uploads.",
+	"description": "MvcCore Example - Forms - Upload.",
 	"keywords": [],
 	"license": ["BSD-3-Clause"],
 	"authors": [{
